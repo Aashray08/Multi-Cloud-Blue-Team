@@ -46,37 +46,38 @@ Threats targeting multi-cloud infrastructure
 Unauthorized use of an organization's cloud computing resources for malicious purposes. Typically, adversaries target cloud infrastructure to consume computational power, storage, or network bandwidth, often without the knowledge or consent of the cloud resource owner.  
 AWS EC2 - C5.large (Compute-optimized) ⚬ Monthly cost: $0.096 × 24 × 30 = ~$69.12. • GCP - N2D-Standard-4 (High-performance) ⚬ Monthly cost: $0.173 × 24 × 30 = ~$124.56. • Azure - F4s_v2 (Compute-optimized) ⚬ Monthly cost: $0.085 × 24 × 30 = ~$61.20
 
-![988de6d705eef642ccc29c2f223b97d1.png](../_resources/988de6d705eef642ccc29c2f223b97d1-1.png)
+<img width="470" height="275" alt="image" src="https://github.com/user-attachments/assets/648c1da5-3c71-4cc5-adae-da1f6a236ab1" />
+
 
 **Data Destruction**
 
 Intentional deletion of sensitive data stored within cloud infrastructure. This can result from malicious activities or alternatively Sophisticated attackers may corrupt data during long-term infiltration campaigns to disrupt operations.  
 Data destruction in the cloud poses significant risks to organizations, from operational disruptions to reputational damage.
 
-![0af627e7a6c629da307ee30c2393c72a.png](../_resources/0af627e7a6c629da307ee30c2393c72a-1.png)
+<img width="1299" height="362" alt="image" src="https://github.com/user-attachments/assets/61302fc3-65b7-4fcb-87ae-c67ed55aa666" />
 
 **IMDS CREDENTIAL ACCESS**
 
 The Instance Metadata Service (IMDS) is a critical component in cloud environments that provides instance-specific metadata, including temporary credentials for accessing cloud services. While essential for many legitimate operations, it is a prime target for attackers seeking to exploit misconfigurations or vulnerabilities to gain unauthorized access to cloud resources.
 
-![bd9f856ce1e301500927bad580d25c75.png](../_resources/bd9f856ce1e301500927bad580d25c75-1.png)
+<img width="760" height="525" alt="image" src="https://github.com/user-attachments/assets/99d2f36c-72e3-431b-af2f-10f5b0c8630f" />
 
 **CLOUD-SPECIFIC RANSOMWARE**
 
 Ransomware targeting data and services hosted in cloud environments. Unlike traditional ransomware, which primarily focuses on on-premises systems and endpoints, cloud ransomware exploits the unique characteristics and vulnerabilities of cloud infrastructure.
 
-![a37224bef22f86ea424bdae32cb78339.png](../_resources/a37224bef22f86ea424bdae32cb78339-1.png)
+<img width="1785" height="771" alt="image" src="https://github.com/user-attachments/assets/e48bb0b2-e1a6-4b11-9a05-0f967138a468" />
 
 Threat landscape: Three major adversaries that target multi-cloud environment   
 SCATTERED SPIDER UNC3944  
 COZY BEAR APT29  
 COSMIC WOLF UNC1326
 
-![4d07fb3b7746781bfca883751f2ef84e.png](../_resources/4d07fb3b7746781bfca883751f2ef84e-1.png)
+<img width="1733" height="686" alt="image" src="https://github.com/user-attachments/assets/8e8fb293-93b4-4f2c-a010-569f1ecd631f" />
 
 **MITRE CLOUD MATRIX**
 
-![b512b1265a8c18c643a7aa1c65dfddd4.png](../_resources/b512b1265a8c18c643a7aa1c65dfddd4-1.png)
+<img width="1372" height="711" alt="image" src="https://github.com/user-attachments/assets/5a73e643-38e2-42f2-9934-24cab1699b38" />
 
 **LACK OF MONITORING AND LOGGING**
 
