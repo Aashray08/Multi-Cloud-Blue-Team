@@ -94,14 +94,14 @@ We can also check if the Elasticsearch is working properly by going to the URL.Â
 
 * * *
 
-**Step 1: Installing the kibana service  
-**  
+**Step 1: Installing the kibana service. **  
+ 
 `sudo apt install kibana`
 
 <img width="1096" height="606" alt="image" src="https://github.com/user-attachments/assets/38391063-3622-48b1-bed5-49d1f7356794" />
 
-**Step 2: Configuring the kibana.yml  
-**  
+**Step 2: Configuring the kibana.yml **  
+
 Once configured, proceed to modify the settings in the /etc/kibana/kibana.yml file.  
 `sudo nano /etc/kibana/kibana.yml`
 
@@ -116,8 +116,7 @@ Modifying the above-mentioned configuration allows global access to the Kibana s
 `sudo systemctl start kibana`
 
   
-**Step 4: Validate the Deployed Kibana Service  
-**  
+**Step 4: Validate the Deployed Kibana Service**  
 After completing all the required installations and configurations, validate the setup by eitherÂ running the command below or accessing the service using the configured IP and port.  
 `sudo systemctl status kibana.service`
 
