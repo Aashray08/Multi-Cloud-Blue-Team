@@ -58,8 +58,8 @@ This project demonstrates:
 
 ## Directory Structure
 
-- Multi Cloud Blue Team 101
-- Deploying a Multi-Cloud Security Monitoring Stack
+- [Multi Cloud Blue Team 101](https://github.com/Aashray08/Multi-Cloud-Blue-Team/blob/main/Multi%20Cloud%20Blue%20Team%20101.md)
+- [Deploying a Multi-Cloud Security Monitoring Stack](https://github.com/Aashray08/Multi-Cloud-Blue-Team/blob/main/Deploying%20a%20Multi-Cloud%20Security%20Monitoring%20Stack.md)
 - More coming..
 
 Each cloud folder includes sample logs, scenario walkthroughs, and detection notes.
