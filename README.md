@@ -8,7 +8,8 @@ This repository documents my hands-on experience and takeaways from the **Multi-
 
 The MCBTA certification is a beginner-friendly, fully practical program designed to introduce learners to core cloud security practices. It covers centralized logging, threat detection, and incident response across multiple cloud platforms.
 
-![cd12b4845641bc32cae1909f53f6bf1d.png](:/3556a2ae3451458cb9d4c6df0b190e96)
+<img width="1920" height="635" alt="image" src="https://github.com/user-attachments/assets/bd032cc3-da3c-49a6-ab06-a3cb6954c7e5" />
+
 
 This project demonstrates:
 
