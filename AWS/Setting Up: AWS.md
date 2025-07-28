@@ -23,6 +23,7 @@ This setup reflects real-world practices in security operations and showcases ho
 
 * * *
 
+<img width="1226" height="552" alt="image" src="https://github.com/user-attachments/assets/dabfcee9-ccad-4c58-a66e-84eda8ce8d36" />
 
 
 ## AWS Services Used
@@ -55,7 +56,8 @@ From the AWS Console, search for and open the **CloudTrail** service. This is wh
 
 Select the **Create trail** option. On the configuration page, provide a trail name and select an S3 bucket for log storage. A private bucket is recommended to ensure secure access. KMS encryption can be enabled if required.
 
-![6bec690e39ec9ae02fb46bfd6276af48.png](:/f24810c6d39b4f27b29e6c1efcf6d21b)
+<img width="1595" height="724" alt="image" src="https://github.com/user-attachments/assets/7e082d29-3d8f-49f1-90dc-b6f155bf9199" />
+
 
 ### Step 3: Selecting Event Types
 
@@ -72,13 +74,15 @@ The setup allows selection of specific event types to be logged by CloudTrail:
 
 It is recommended to enable only the event types relevant to monitoring goals to optimize log volume and cost.
 
-![79142920b7a85613b17d30f0b67d1e41.png](:/3ab827d3b6a74b59b9ab1ecd7828b5ad)
+<img width="1337" height="884" alt="image" src="https://github.com/user-attachments/assets/fcd7ccd7-7640-462f-9d9d-9b8e55a49c97" />
+
 
 ### Step 4: Finalizing the Setup
 
 After configuring the trail, review the settings and create the trail. A success message will confirm that CloudTrail logging has been enabled and is actively collecting logs.
 
-![e6d33b76ab9be4143927d50c6db08e94.png](:/13e35324cc05457b9968b98267e56431)
+<img width="1791" height="462" alt="image" src="https://github.com/user-attachments/assets/f774148b-fb65-4506-973e-8d1da54bc62d" />
+
 
 ### Step 5: Validating Log Storage in S3
 
@@ -93,7 +97,8 @@ To confirm that CloudTrail logs are being delivered correctly:
 
 This step verifies that log delivery from CloudTrail to the S3 bucket is active and correctly configured.
 
-![c6f44ca205c8d83c7e1a63c35a974f9f.png](:/4f8f6f2bea05455788028d24445d06c7)
+<img width="1620" height="596" alt="image" src="https://github.com/user-attachments/assets/bd70d600-d686-475f-8e69-5390706a7d03" />
+
 
 ### Step 6: Configuring SQS for Log Forwarding
 
@@ -110,7 +115,8 @@ The Simple Queue Service (SQS) is used to queue log events and forward them to t
 - After creation, verify that the SQS queue is successfully provisioned.
     
 
-![bc0e0a369da1e08bcb5a6f1e55c78106.png](:/f071c5b874d047c199734828a058cabe)
+<img width="1494" height="400" alt="image" src="https://github.com/user-attachments/assets/178bf458-0ec9-4e59-bd6d-e170d379e99b" />
+
 
 #### Step 6.2: Setting Access Permissions
 
@@ -127,7 +133,8 @@ To allow S3 to send messages (log events) to the SQS queue, an access policy mus
 
 Once the access policy is applied, the integration between S3 and SQS is complete, and the system is ready to forward log events for ingestion.
 
-![9ed605c0514f8bfb151c05d21fae9fbe.png](:/250cf75609724b9eb7457fc5085ebe7d)
+<img width="1405" height="898" alt="image" src="https://github.com/user-attachments/assets/f720b461-1f2a-4461-8445-8f70c684c277" />
+
 
 ### Step 7: Integrating S3 with SQS Queue
 
@@ -154,7 +161,8 @@ Under the **Destination** section, select **SQS queue** and choose the queue tha
 
 After verifying the settings, save the event notification. This completes the integration between the S3 bucket and SQS.
 
-![cb732d1a1210333ef9b366a45362ea62.png](:/c58bd6d9d3df47f19b47247f78182389)
+<img width="1600" height="948" alt="image" src="https://github.com/user-attachments/assets/c9be2dbc-2636-4e0f-859c-08a2b70ae982" />
+
 
 Once this is complete, the next step is to integrate the SQS queue with **Filebeat** for log collection and forwarding into the ELK stack.
 
@@ -185,7 +193,8 @@ Run the following command to enable the AWS module in Filebeat:
 
 `filebeat modules enable aws`
 
-![fb967f56796473c816467d1e0822aa55.png](:/897e70160e6b43da8afc93d76558186a)
+<img width="1068" height="402" alt="image" src="https://github.com/user-attachments/assets/40d7cd54-8ea0-4734-98e6-d4e1bc4d712c" />
+
 
 #### Step 8.4: Configure the AWS Module
 
@@ -227,7 +236,7 @@ To confirm successful log ingestion:
 
 * * *
 
-### ✅ Conclusion
+###  Conclusion
 
 This configuration establishes a secure and scalable log ingestion pipeline from AWS into the ELK stack using Filebeat. It enables real-time monitoring, detection, and visibility across AWS infrastructure.
 
