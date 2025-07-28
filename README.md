@@ -6,7 +6,7 @@ This repository documents my hands-on experience and takeaways from the **Multi-
 
 ## Overview
 
-The MCBTA certification is a beginner-friendly, fully practical program designed to introduce learners to core cloud security practices. It covers centralized logging, threat detection, and incident response across multiple cloud platforms.
+This multi-cloud security analysis environment was designed to simulate real-world incidents across major cloud providers. The goal was to set up a centralized SIEM using the Elastic Stack (ELK), collect and correlate logs from multiple cloud platforms, and perform investigative workflows using TheHive and Kibana.
 
 <img width="1920" height="635" alt="image" src="https://github.com/user-attachments/assets/bd032cc3-da3c-49a6-ab06-a3cb6954c7e5" />
 
