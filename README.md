@@ -61,8 +61,8 @@ This project demonstrates:
 - [Multi Cloud Blue Team 101](https://github.com/Aashray08/Multi-Cloud-Blue-Team/blob/main/Multi%20Cloud%20Blue%20Team%20101.md)
 - [Deploying a Multi-Cloud Security Monitoring Stack](https://github.com/Aashray08/Multi-Cloud-Blue-Team/blob/main/Deploying%20a%20Multi-Cloud%20Security%20Monitoring%20Stack.md)
 - **AWS**
-- [Introduction to AWS Security]([./AWS/CloudTrail%20Logging%20Setup.md](https://github.com/Aashray08/Multi-Cloud-Blue-Team/blob/main/AWS/Intro-To-AWS-Security.md))
-- [Setting up AWS Logging & Monitoring]([./AWS/S3-SQS%20Integration.md](https://github.com/Aashray08/Multi-Cloud-Blue-Team/blob/main/AWS/Setting%20Up%3A%20AWS.md))
+  - [Introduction to AWS Security]([./AWS/CloudTrail%20Logging%20Setup.md](https://github.com/Aashray08/Multi-Cloud-Blue-Team/blob/main/AWS/Intro-To-AWS-Security.md))
+  - [Setting up AWS Logging & Monitoring]([./AWS/S3-SQS%20Integration.md](https://github.com/Aashray08/Multi-Cloud-Blue-Team/blob/main/AWS/Setting%20Up%3A%20AWS.md))
 
 Each cloud folder includes sample logs, scenario walkthroughs, and detection notes.
 
