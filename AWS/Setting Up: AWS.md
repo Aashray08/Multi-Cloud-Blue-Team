@@ -240,7 +240,6 @@ To confirm successful log ingestion:
 
 This configuration establishes a secure and scalable log ingestion pipeline from AWS into the ELK stack using Filebeat. It enables real-time monitoring, detection, and visibility across AWS infrastructure.
 
-Let me know when you're ready to add Kibana dashboards, detection rules, or sample queries for analysis.
 
 &nbsp;
 
