@@ -1,4 +1,4 @@
-# Multi-Cloud Blue Team Analysis
+# SIEM Log Analysis Threat Detection Lab
 
 This repository documents my hands-on experience and takeaways from the **Multi-Cloud Blue Team Analyst (MCBTA)** certification. The course focused on performing blue team operations across Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP), simulating real-world security incidents in a multi-cloud environment.
 
